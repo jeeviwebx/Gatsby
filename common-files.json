@@ -1,0 +1,2051 @@
+{
+    "enterprise-docs": [ 
+        {
+            "src": "designer-guide/report-designer/index.md",
+            "dest": "designer-guide/",
+            "frontmatter": { 
+                "title": "Reporting | Standalone Designer | Bold Reports",
+                "description": "The Standalone Report Designer is a tool for designing, editing, publishing, and previewing reports."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/supported-unsupported-features.md",
+            "dest": "designer-guide/",
+            "frontmatter": { 
+                "title": "Supported | Unsupported | Standalone Report Designer",
+                "description": "This article explains supported and unsupported features, data source, report items in Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/design-report-using-keyboard-shortcuts.md",
+            "dest": "designer-guide/",
+            "frontmatter": { 
+                "title": "Keyboard shortcuts to design reports in Standalone Designer",
+                "description": "This section provides information on how to design a report using keyboard shortcuts in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/amazon-aurora-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Amazon Aurora Data Source | Standalone Designer",
+                "description": "Learn how to connect to Amazon Aurora Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/amazon-rds-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Amazon RDS Data Source | Standalone Designer",
+                "description": "Learn how to connect to Amazon RDS Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/amazon-redshift-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Amazon Redshift Data Source | Report Designer",
+                "description": "Learn how to connect to Amazon Redshift Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/aws-opensearch-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to AWS Open Search Data Source | Report Designer",
+                "description": "Learn how to connect to AWS Open Search Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/aws-secrets-manager-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to AWS Secrets Manager Data Source | Report Designer",
+                "description": "Learn how to securely retrieve database credentials from AWS Secrets Manager, configure the data source using the selected engine, and feed data into your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/cdata-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to CDATA Data Source | Standalone Designer",
+                "description": "Learn how to connect to CDATA Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/elastic-search-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Elastic Search Data Source | Report Designer",
+                "description": "Learn how to connect to Elastic Search Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/google-bigquery-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Google BigQuery Data Source | Report Designer",
+                "description": "Learn how to connect to GoogleBig Query Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/google-cloud-sql-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Google Cloud SQL Data Source | Report Designer",
+                "description": "Learn how to connect to Google Cloud SQL Data Source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/sql-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to SQL Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to SQL data source and feed data to your RDL reports using Standalone Report Designer. Supported server versions are Microsoft SQL Server (2012, 2014, 2016, 2017, and 2019)"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/ssas-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to SSAS Data Source | Standalone Report Designer",
+                "description": "Learn how to connect Microsoft SQL Server Analysis Services (SSAS) with Standalone Report Designer and create data source for widget configuration."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/postgresql-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to PostgreSQL | Standalone Report Designer",
+                "description": "Learn how to connect to PostgreSQL data source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/snowflake-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Snowflake | Standalone Report Designer",
+                "description": "Learn how to connect to Snowflake data source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/connection-settings/index.md",
+            "dest": "designer-guide/manage-data/connection-settings/",
+            "frontmatter": {
+                "title": "Connection Settings | Standalone Report Designer",
+                "description": "Standalone Report Designer allows you to use advanced connection settings to customize your database connectivity."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/connection-settings/configuring-ssh-tunnel.md",
+            "dest": "designer-guide/manage-data/connection-settings/",
+            "frontmatter": {
+                "title": "Configuring an SSH Tunnel | Standalone Report Designer",
+                "description": "Learn how to configure an SSH tunnel for your data connectors in Standalone Report Designer, ensuring encrypted connections to remote database servers."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/rest-api-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to REST API Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to REST API data source and feed data to your RDL reports using Standalone Report Designer. You can connect with all web services that has a REST API interface."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/azure-sql-data-warehouse.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Azure SQL Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to Azure SQL data warehouse and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/json-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to JSON Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to JSON data source and feed data to your RDL reports using Standalone Report Designer. The data source can be loaded from local disk, external URL file, and direct string."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/xml-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to XML Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to XML data source and feed data to your RDL reports using Standalone Report Designer. The data source can be loaded from local disk, external URL file, and direct string."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/odata-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Odata Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to OData data source and feed data to your RDL reports using Standalone Report Designer. You can connect with the OData using this REST API interface."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/oracle-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Oracle Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to oracle data source and feed data to your RDL reports using Standalone Report Designer. Supported server versions are Oracle Database (11g, 12c, 18c, and 19c)"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/oledb-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to OLEDB Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to OLEDB data source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/odbc-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to ODBC Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to ODBC data source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/mongodb-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to MongoDB Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to MongoDB data source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/mysql-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to MySQL Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to MySQL data source and feed data to your RDL reports using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/mariadb-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to MariaDB Data Source | Standalone Report Designer",
+                "description": "Learn how to connect to MariaDB data source and feed data to your RDL reports using Bold Reports Cloud Reporting."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/manage-data/data-connectors/memsql-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to MemSQL Data Source | Standalone Report Designer",
+                "description": "Learn how to connect MemSQL database and feed data to your RDL reports using Bold Reports Cloud Reporting."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/datasource/create-an-embedded-data-source.md",
+            "dest": "designer-guide/manage-data/datasource/",
+            "frontmatter": {
+                "title": "Create an embedded data source | Standalone Designer",
+                "description": "Create an embedded data source connection to feed data to the report and to visualize the data using report items in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/datasource/modify-an-embedded-data-source.md",
+            "dest": "designer-guide/manage-data/datasource/",
+            "frontmatter": {
+                "title": "Modify an embedded data source | Standalone Designer",
+                "description": "Modify an embedded data source in Standalone Report Designer to update the connection properties of data source."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/datasource/delete-a-data-source.md",
+            "dest": "designer-guide/manage-data/datasource/",
+            "frontmatter": {
+                "title": "Delete an embedded data source Standalone Report Designer",
+                "description": "Delete an embedded data source from the report which is no longer in use with, Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/datasource/duplicate-a-data-source.md",
+            "dest": "designer-guide/manage-data/datasource/",
+            "frontmatter": {
+                "title": "Duplicate a data source in Standalone Report Designer",
+                "description": "Duplicate an existing data source in Standalone Report Designer when data-level restrictions need to be imposed for report items."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Create an embedded dataset | Standalone Report Designer",
+                "description": "Create an embedded dataset connection to feed data to the report and to visualize the data using report items in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/modify-an-embedded-dataset.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Modify an embedded dataset | Standalone Report Designer",
+                "description": "Modify an embedded dataset in Standalone Report Designer to modify query, fields and parameter details in the report."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/delete-a-dataset.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Delete an embedded data from report | Standalone Designer",
+                "description": "Delete an embedded data from the report which is no longer in use with the Data configuration panel in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/duplicate-a-dataset.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Duplicate a dataset in Standalone Report Designer",
+                "description": "Duplicate an existing dataset in Standalone Report Designer when data-level restrictions need to be imposed for report items."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/dataset-fields.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Create dataset fields | Standalone Report Designer",
+                "description": "Create dataset fields in existing dataset with Standalone Report Designer to create new values that do not exist in the data source."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/add-a-filter-to-a-dataset.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Add a filter to a dataset | Standalone Report Designer",
+                "description": "Add a filter to a dataset in Standalone Report Designer to filter data in a report after retrieving from datasource."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/dataset-parameters.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Create dataset parameters | Standalone Report Designer",
+                "description": "Create or edit dataset parameters in existing dataset with Standalone Report Designer to filter data at runtime."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/index.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Transforming data | Standalone Report Designer",
+                "description": "Transform the data based on the report you design after retrieving it from datasource. Standalone Designer provided handy options which helps to shape the data as required."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/join-table.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Join Tables | Standalone Designer | Bold Reports",
+                "description": "This section describes how to join tables in query builder, and the query can be used to feed data to the report."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/supported-join-types.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Supported join types in query joiner | Standalone Designer",
+                "description": "This section described the supported query join types in Report Designer and the purpose of each join types."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/formatting-columns.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Formating Columns with Standalone Report Designer",
+                "description": "This describes steps on how to rename and exclude the columns of dataset table in query designer with Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/query-filter.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Simple steps to filter query data using Standalone designer",
+                "description": "This section describes about how to limit or filter dataset fields of specfic table using Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Create or link a dataset parameters in query builder",
+                "description": "Create new dataset parameters or link a dataset parameter with a report parameter on dataset create/edit action in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/define-query-parameters.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Define query parameters in Standalone Designer",
+                "description": "Define query parameters in dataset query designer on dataset create/edit action in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/configure-expression-columns.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "Create and edit the expression columns Standalone Designer",
+                "description": "This section describes the steps to create/edit and delete an expression columns with Expression Builder"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/transforming-data/supported-functions-in-query-expression.md",
+            "dest": "designer-guide/transforming-data/",
+            "frontmatter": {
+                "title": "List of Built-in functions supported in Expression Builder",
+                "description": "This section provides the information about the list of built-in functions supported in query expression builder."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/index.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Report Parameters | Standalone Report Designer",
+                "description": "Report parameters can be used to filter the report data and Lets you dynamically change the parameter values in the Report Viewer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/add.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Add report parameter | Standalone Report Designer",
+                "description": "Add report parameter to the report in Standalone Report Designer, to filter report data for one or more values."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/edit.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Edit a report parameter using Standalone Report Designer",
+                "description": "Edit a report parameter using Standalone Report Designer, to modify the existing parameter properties in the RDL reports."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/delete.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Delete a report parameter | Standalone Report Designer",
+                "description": "Delete a report parameter using Standalone Report Designer to remove the report parameters that are no longer in use."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/define-available-values-for-parameter.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Define available values in Standalone Designer",
+                "description": "Define available values for a report parameter in Standalone Report Designer for displaying it to the user in Report Viewer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/define-default-values-for-parameter.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Create drop-down list report parameter Standalone Designer",
+                "description": "Create drop-down list report parameter to the report in Standalone Report Designer, to dynamically filter the values using the drop-down list."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/create-multi-value-parameter.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Create a multi value report parameter | Standalone Designer",
+                "description": "Create a multi value report parameter using Standalone Report Designer, to modify the existing parameter properties in the RDL reports."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/create-cascading-parameter.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Create a cascading parameter | Standalone Report Designer",
+                "description": "This section describes the steps to create a cascading parameter to handle long list of values on report preview action."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/parameters-layout.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Parameters Layout | Standalone Report Designer",
+                "description": "This section explains how to use parameter layout in Standalone Report Designer to arrange and organize the parameter structure in a report."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/image-manager/index.md",
+            "dest": "designer-guide/image-manager/",
+            "frontmatter": {
+                "title": "Image manager | Standalone Report Designer | Bold Reports",
+                "description": "Image manager allows to add an embedded an image to the report, the embedded image will always be available to that report."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/image-manager/add-image.md",
+            "dest": "designer-guide/image-manager/",
+            "frontmatter": {
+                "title": "Steps to add an image using Standalone report designer",
+                "description": "This section describes how to add an image into the RDL report using Image manager in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/image-manager/delete-image.md",
+            "dest": "designer-guide/image-manager/",
+            "frontmatter": {
+                "title": "Steps to delete an image using Standalone report designer",
+                "description": "This section describes about how to delete an image from image manager using the Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/index.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Compose report features in Standalone Report Designer",
+                "description": "Standalone Report Designer provides RDL features such as linking, filter, sorting, grouping, expressions etc allows you to create reports to present the data."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/design-surface/index.md",
+            "dest": "designer-guide/compose-report/design-surface/",
+            "frontmatter": {
+                "title": "Design Surface support in Standalone Report Designer",
+                "description": "The Report Designer comes with a WYSIWYG user interface that allows report to be edited in a form that resembles its appearance when printed or displayed."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/design-surface/report-item-resizing.md",
+            "dest": "designer-guide/compose-report/design-surface/",
+            "frontmatter": {
+                "title": "Report Item Resizing | Standalone Report Designer",
+                "description": "This section provides information on report item resizing in design area to improve the data presentation in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/design-surface/report-item-selection.md",
+            "dest": "designer-guide/compose-report/design-surface/",
+            "frontmatter": {
+                "title": "Report Item Selection | Standalone Report Designer",
+                "description": "This section provides different ways to select report item in Standalone Report Designer design surface using keyboard and mouse actions."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/design-surface/report-item-alignment.md",
+            "dest": "designer-guide/compose-report/design-surface/",
+            "frontmatter": {
+                "title": "Report Item Alignment | Standalone Report Designer",
+                "description": "This section provides the list of alignment options available in Standalone Report Designer and its purpose."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/design-surface/context-menu.md",
+            "dest": "designer-guide/compose-report/design-surface/",
+            "frontmatter": {
+                "title": "Context menu support in Standalone Report Designer",
+                "description": "This section explains how you can use the context menu to perform basic designing actions such as cut, copy, paste, delete and insert report items with Standalone report designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/properties-panel.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Properties Panel | Standalone Designer | Bold Reports",
+                "description": "The Properties panel has options to view, edit, and set properties of a selected report item or report properties."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/ruler.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Working with Rulers | Standalone Designer | Bold Reports",
+                "description": "Overview of the Ruler in the Web Report Designer, helping users precisely position report items and maintain a clear, organized layout."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/page-margin.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Page Margin | Standalone Designer | Bold Reports",
+                "description": "The Page Margin provides a clear view of margin areas, helping users manage layout and report properties effectively during report design."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/property-navigator.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Property Navigator | Standalone Designer | Bold Reports",
+                "description": "The Property Navigator provides easy access to the selection of report elements and the configuration of their properties."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/report-explorer.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Report Explorer | Standalone Designer | Bold Reports",
+                "description": "The Report Explorer panel offers an organized, hierarchical view of the report structure with quick navigation, selection states and search capabilities."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/report-properties.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Report properties | Standalone Report Designer",
+                "description": "This section describes the steps to view and edit the report property values in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/header-body-and-footer-properties.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Header, Footer and Body property in report designer",
+                "description": "The section is about report header, body and footer properties, the common and specific properties are categorized separately in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Show or hide header and footer | Standalone Report Designer",
+                "description": "This section describes the steps to show or hide the header and footer of the report in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/common-properties.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Common properties | Standalone Report Designer",
+                "description": "This section describes the common properties that are applicable for all report layout or report items in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/report-item-multi-selection.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Report Item Multiselection | Standalone Report Designer",
+                "description": "This section describes about set or edit the multiple report item properties in a single action to enhance the report design in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/sort-data.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Simple steps to sort data using Standalone report designer",
+                "description": "This section describes about how to create a sort expression to sort data the dataset or in data regions using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/group-data.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Simple steps to group data using Standalone report designer",
+                "description": "This section describes about how to group data in the data regions after retrieving from database using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/filter-data.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Simple steps to filter data using Standalone report designer",
+                "description": "This section describes about how to to limit the data in a report or data region after retrieving from database with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/format-data.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Steps to format data using Standalone report designer",
+                "description": "This section describes about how to represent the data in various format in textbox using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/link-data.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Steps for linking actions using Standalone report designer",
+                "description": "This section describes about SSRS linking and how to define linking actions, drill through using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/background-image.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "SSRS Background image property | Standalone Report Designer",
+                "description": "This section describes about SSRS background image property and how to set it in report sections with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/document-map.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Create a Document Map | Standalone Report Designer",
+                "description": "Learn how to configure a document map to provide a set of navigational links to report items in a rendered report with Bold Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/create-ssrs-drill-down-report.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Create SSRS drilldown report | Standalone Report Designer",
+                "description": "Drill down reports allow users to show or hide column data by providing expand & collapse symbols in a text box or providing interactivity to user."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/create-ssrs-drill-through-report.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "SSRS drill through report | Standalone Report Designer",
+                "description": "Drill through reports allow users to open a report by clicking a link in another report, it contains details about an item inside an original summary report."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/create-multiple-column-report-ssrs.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Create Multiple-Column Report in Standalone Report Designer",
+                "description": "The columns in detail section is printed once for every row in the data source similarly to a repeater and this happens vertically."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/bookmark.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Bookmark SSRS | Standalone Report Designer | Bold Reports",
+                "description": "Learn how to add bookmarks to a report to provide a customized internal navigation links or to provide customized table of contents in Bold Reports Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/interactive-sorting.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Interactive sorting | Standalone Report Designer",
+                "description": "Standalone Report Designer allows the end-user to sort columns of data in the Viewer by setting interactive sorting on a TextBox control within a data region."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/unit-switcher.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Steps to switch the units using Standalone report designer",
+                "description": "This section describes about how to switch the unit type of the RDL report using the Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/layout-ordering.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Steps to order reportitem using Standalone report designer",
+                "description": "This section describes about ordering report items in the design area surface of Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/expressions/index.md",
+            "dest": "designer-guide/compose-report/expressions/",
+            "frontmatter": {
+                "title": "Steps to set expression using Standalone report designer",
+                "description": "This section describes about how to set expression with various references using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/expressions/using-dataset-fields.md",
+            "dest": "designer-guide/compose-report/expressions/",
+            "frontmatter": {
+                "title": "Steps of dataset-fields using Standalone report designer",
+                "description": "This section describes about dataset-fields references of expression using the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/expressions/using-report-parameters.md",
+            "dest": "designer-guide/compose-report/expressions/",
+            "frontmatter": {
+                "title": "Steps of parameter using Standalone report designer",
+                "description": "This section describes about parameter collection references of expression using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/expressions/using-built-in-fields.md",
+            "dest": "designer-guide/compose-report/expressions/",
+            "frontmatter": {
+                "title": "Steps of built-in fields using Standalone report designer",
+                "description": "This section describes about built-in fields references of expression using the Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/expressions/using-built-in-functions.md",
+            "dest": "designer-guide/compose-report/expressions/",
+            "frontmatter": {
+                "title": "Steps of basic functions using Standalone report designer",
+                "description": "This section describes about the basic functions references of expression using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/expressions/using-operators.md",
+            "dest": "designer-guide/compose-report/expressions/",
+            "frontmatter": {
+                "title": "Steps of operators using Standalone report designer",
+                "description": "This section describes about various operators references of expression using the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/performance-settings.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Performance Settings | Standalone Report Designer",
+                "description": "This section describes how to set the properties in the standalone report designer to improve report rendering performance."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/code-module.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Steps to add custom code in Standalone report designer",
+                "description": "This section describes about how to a add custom code, assembly references using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/page-layout.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Page Layout | Standalone Designer | Bold Reports",
+                "description": "Page rendering layout allows to render and print reports into variety of file formats like Word, Excel, PDF, PowerPoint, HTML, and CSV."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/compose-report/report-variables.md",
+            "dest": "designer-guide/compose-report/",
+            "frontmatter": {
+                "title": "Steps to add report variables | Standalone Report Designer",
+                "description": "This section describes about how to a add report variables in a RDL report using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/index.md",
+            "dest": "designer-guide/report-items/",
+            "frontmatter": {
+                "title": "Configure Report items | Standalone Report Designer",
+                "description": "Standalone Report Designer offers rich set of report items to present the data in comprehensive reports to help companies make better business decisions."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/line.md",
+            "dest": "designer-guide/report-items/",
+            "frontmatter": {
+                "title": "Steps on line reportitem using Standalone report designer",
+                "description": "This section describes about how to draw a line in the report and its properties using the Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/rectangle.md",
+            "dest": "designer-guide/report-items/",
+            "frontmatter": {
+                "title": "Design RDL report using rectangle | Standalone Designer",
+                "description": "This article explains how to design RDL report using rectangle. It acts as a container to place multiple report items, visually separates a region of the report"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/image.md",
+            "dest": "designer-guide/report-items/",
+            "frontmatter": {
+                "title": "Steps on image reportitem using Standalone report designer.",
+                "description": "Design ssrs rdl report using image report item, to add an image in a report using Standalone report designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/subreport/index.md",
+            "dest": "designer-guide/report-items/subreport/",
+            "frontmatter": {
+                "title": "Design rdl report using subreport | Standalone Designer",
+                "description": "Design ssrs rdl report using subreport report item, to insert one report inside the other report using Standalone report designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/subreport/design-rdl-report-using-subreport.md",
+            "dest": "designer-guide/report-items/subreport/",
+            "frontmatter": {
+                "title": "Design RDL report using subreport | Standalone Designer",
+                "description": "Design ssrs rdl report using subreport item, to insert one report inside the body of other report using Standalone report designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/textbox/index.md",
+            "dest": "designer-guide/report-items/textbox/",
+            "frontmatter": {
+                "title": "TextBox Report Item | Standalone Report Designer",
+                "description": "This section describes about textbox report item and its properties to design a report using textbox in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/textbox/design-rdl-report-using-textbox.md",
+            "dest": "designer-guide/report-items/textbox/",
+            "frontmatter": {
+                "title": "Design RDL report using textbox | Standalone Report Designer",
+                "description": "This article explains how to design RDL report using textbox report item using Standalone Report Designer. Display plain, HTML text or dynamic values using it."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/textbox/add-html-in-to-a-report.md",
+            "dest": "designer-guide/report-items/textbox/",
+            "frontmatter": {
+                "title": "Add HTML into a Report | Standalone Report Designer",
+                "description": "This article describes steps to insert HTML-formatted text from a dataset field into a report using textbox report item."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/index.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Tablix Report Item | Standalone Report Designer",
+                "description": "This section describes about tablix report item and its properties to design a report using tablix in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/grouping-panel.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Grouping Panel | Standalone Designer | Bold Reports",
+                "description": "This section describes the steps to add or remove groups and totals using grouping panel in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/member-properties.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Tablix member properties | Standalone Report Designer",
+                "description": "This section describes the types and properties of the tablix member along with its purpose in the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Assign data | Tablix dataregion | Standalone Report Designer",
+                "description": "This section explains steps to assign dataset to the tablix data region to display data from the dataset in the tablix data region in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/cell-properties.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Tablix cell properties | Standalone Report Designer",
+                "description": "This section describes about tablix cell and its properties to design a report using tablix in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/cell-border.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Tablix cell border | Standalone Report Designer",
+                "description": "This section describes about tablix cell border and its behaviour to design a report using tablix in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/resize-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Resize tablix data region | Standalone Report Designer",
+                "description": "Resize the tablix data region, row, columns to display the improve the data presentation in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/insert-or-delete-a-row-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Insert or Delete a Row | Standalone ReportDesigner",
+                "description": "This section describes the steps to insert or delete a row in tablix data region with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/insert-or-delete-a-column-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Insert or Delete a Column | Standalone Report Designer",
+                "description": "This section describes the steps to insert or delete a column in tablix in the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/group.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Tablix Group | Standalone Designer | Bold Reports",
+                "description": "This section describes about tablix group, its types and the behaviour in tablix data regions in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/insert-or-delete-a-row-group-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Insert or Delete a Row Group | Standalone Designer",
+                "description": "This section describes the steps to insert or delete a row group in table in the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/insert-or-delete-a-column-group-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Insert or Delete a Column Group | Standalone Designer",
+                "description": "This section describes the steps to insert or delete a column group in table in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/add-or-delete-a-details-group-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Add or Delete a Details Group | Standalone Report Designer",
+                "description": "This section describes the steps to insert or delete a details group in tablix in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/merge-cells-in-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Merge cells | Standalone Report Designer | Bold Reports",
+                "description": "This section describes about merge and split actions in tablix data regions to design a report using tablix in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/add-filters-to-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Add filters to tablix data region | Standalone Designer",
+                "description": "This section describes how to add filters to tablix data regions and group in the Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/sort-data-in-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Sort data in a tablix data region | Standalone Designer",
+                "description": "This section describes how to Sort data in a tablix data regions and group in the Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/add-total-in-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Add total in tablix data region | Standalone Designer",
+                "description": "This section describes the steps to Add total in different sections of tablix data region with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/add-group-header-and-footer-in-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Add Header and Footer in tablix groups| Standalone Designer",
+                "description": "This section describes the steps to Add group Header and Footer in tablix data region with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/nested-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Nested data regions | Standalone Report Designer",
+                "description": "This section describes about nested data regions and the steps design a report with nested data regions in Standalone Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Design rdl report using table | Standalone Report Designer",
+                "description": "Design ssrs rdl report using table, to display a list of records in the table format in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table-with-multi-text-run.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Design SSRS RDL Report using Table with Multi TextRun",
+                "description": "Learn how to design an SSRS RDL report using table with multi text run, to display a list of records in the table format in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/add-grouping-and-totals-in-tablix-design.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Add grouping and totals  | Standalone Report Designer",
+                "description": "Design ssrs rdl report using grouping and total in tablix data region, to display a list of records in the table format in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/conditional-formatting-tablix-data-region.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Tablix Conditional Formatting | Standalone Report Designer",
+                "description": "This section describes steps to format the data in tablix data region to enhance its visual appearance in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/repeat-headers-on-each-page-in-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Repeat Headers on Each Page | Standalone Report Designer",
+                "description": "This section describes how to repeat headers on each page of SSRS report in the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/tablix/keep-column-headers-visible-while-scrolling-in-ssrs.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "Keep Headers visible while scrolling | Standalone Designer",
+                "description": "This section describes how to keep headers visible while scrolling of SSRS report in the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix/no-rows-message.md",
+            "dest": "designer-guide/report-items/tablix/",
+            "frontmatter": {
+                "title": "No Rows Message | Bold reports | Standalone Report Designer",
+                "description": "Learn how to set a no rows message to show in a rendered report in place of a data region that has no data using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/matrix/index.md",
+            "dest": "designer-guide/report-items/matrix/",
+            "frontmatter": {
+                "title": "Matrix Report Item | Standalone ReportDesigner",
+                "description": "This section describes about matrix report item and its properties to design a report using matrix in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/matrix/design-ssrs-matrix-report.md",
+            "dest": "designer-guide/report-items/matrix/",
+            "frontmatter": {
+                "title": "Design SSRS Matrix Report | Standalone Report Designer",
+                "description": "Design ssrs rdl report using matrix, to display a list of records in the table format in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/list/index.md",
+            "dest": "designer-guide/report-items/list/",
+            "frontmatter": {
+                "title": "List Report Item | Standalone Designer | Bold Reports",
+                "description": "This section describes about list report item and its properties to design a report using list in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/list/design-ssrs-rdl-report-using-list.md",
+            "dest": "designer-guide/report-items/list/",
+            "frontmatter": {
+                "title": "Design rdl report using list | Standalone Report Designer",
+                "description": "Design ssrs rdl report using list, to display a list of records in the list format in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix-wizard/index.md",
+            "dest": "designer-guide/report-items/tablix-wizard/",
+            "frontmatter": {
+                "title": "Tablix Wizard Report Item | Standalone Report Designer",
+                "description": "This section explains the tablix wizard report item interface in Bold Reports Designer. Simplifying the configuration of Tablix structures (table and matrix data regions) in reports."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/tablix-wizard/design-report-using-the-tablix-wizard.md",
+            "dest": "designer-guide/report-items/tablix-wizard/",
+            "frontmatter": {
+                "title": "Design Report using Tablix Wizard | Standalone Designer",
+                "description": "Design an SSRS RDL report using the tablix wizard to display a list of records in the table or matrix format in Bold Reports Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/index.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Report Item | Standalone Report Designer | Bold Reports",
+                "description": "This section describes about map report item and its properties to design a report using map in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/properties.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Properties | Standalone Designer | Bold Reports",
+                "description": "This section describes about each properties in map report item and procedure to use it with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/binding-data.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Binding data to map | Standalone Report Designer",
+                "description": "This section describes the steps involved in binding a data to map report item with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/legend.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Legend | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to enable and customize the legend in Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/shape-settings.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Shape Settings | Standalone Report Designer",
+                "description": "This section describes how to customize the shapes/polygons in Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/shape-color-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Shape Color Rule | Standalone Report Designer",
+                "description": "This section describes how to define a color rule for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/color-palette-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Color Palette Rule | Standalone Report Designer",
+                "description": "This section describes how to define a color palette rule for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/color-range-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Color Range Rule | Standalone Report Designer",
+                "description": "This section describes how to define a color range rule for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/custom-color-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Custom Color rule | Standalone Report Designer",
+                "description": "This section describes how to define a custom color rule for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/equal-distribution-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Equal distribution | Standalone Report Designer",
+                "description": "This section describes how to define a Equal distribution type for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/equal-interval-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Equal Interval Distribution | Standalone Report Designer",
+                "description": "This section describes how to define a equal interval distribution for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/optimal-distribution-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Optimal Distribution | Standalone Report Designer",
+                "description": "This section describes how to define optimal distribution for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/custom-distribution-shape-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Custom Distribution | Standalone Report Designer",
+                "description": "This section describes how to define a custom distribution rule for Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/define-custom-colors.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map custom colors | Standalone Report Designer",
+                "description": "This section describes the steps involved in defining a custom colors sets to map in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/define-custom-data-range.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map custom distribution | Standalone Report Designer",
+                "description": "This section describes the steps involved in defining a custom data range to map in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/marker-settings.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Marker Settings | Standalone Report Designer",
+                "description": "This section describes how to display and customize the markers in Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/marker-color-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Marker Color Rule | Standalone Report Designer",
+                "description": "This section describes how to define color rule for marker in Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/color-palette-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Color Palette Marker Rule | Standalone Report Designer",
+                "description": "This section describes how to define a color palette rule for Map marker with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/color-range-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Color Range Marker Rule | Standalone Report Designer",
+                "description": "This section describes how to define a color range rule for Map markers with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/custom-color-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Custom Color Marker Rule | Standalone Report Designer",
+                "description": "This section describes how to define a custom color rule for Map markers with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/equal-distribution-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Equal Distribution Marker | Standalone Report Designer",
+                "description": "This section describes how to define a equal distribution type for Map markers with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/equal-interval-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Equal Interval Marker Rule | Standalone Report Designer",
+                "description": "This section describes how to define a equal interval distribution for Map markers with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/optimal-distribution-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Optimal Distribution Marker | Standalone Report Designer",
+                "description": "This section describes how to define optimal distribution for Map markers with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/custom-distribution-marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Custom Distribution Marker | Standalone Report Designer",
+                "description": "This section describes how to define a custom distribution rule for Map markers with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/marker-rule.md",
+            "dest": "designer-guide/report-items/map/",
+            "frontmatter": {
+                "title": "Map Marker Rule | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to define styles rule for marker in Map Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/use-case/index.md",
+            "dest": "designer-guide/report-items/map/use-case/",
+            "frontmatter": {
+                "title": "Map Use Case | Bold Reports | Standalone Report Designer",
+                "description": "This section describes few map use case reports and how to achieve it using map report item in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/use-case/design-map-using-custom-rule.md",
+            "dest": "designer-guide/report-items/map/use-case/",
+            "frontmatter": {
+                "title": "Design map using custom rule | Standalone Report Designer",
+                "description": "This section describes the steps involved in designing a map using custom color rule and custom distribution type in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/use-case/design-map-using-color-range-rule.md",
+            "dest": "designer-guide/report-items/map/use-case/",
+            "frontmatter": {
+                "title": "Design map color range rule | Standalone Report Designer",
+                "description": "This section describes the steps involved in designing a map using color range rule and optimal distribution type in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/use-case/design-map-using-color-palette-rule.md",
+            "dest": "designer-guide/report-items/map/use-case/",
+            "frontmatter": {
+                "title": "Design map color palette rule | Standalone Report Designer",
+                "description": "This section describes the steps involved in designing a map using color palette rule and optimal distribution type."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/use-case/design-map-using-marker-rule.md",
+            "dest": "designer-guide/report-items/map/use-case/",
+            "frontmatter": {
+                "title": "Design map using marker rule | Standalone Report Designer",
+                "description": "This section describes the steps involved in designing a map using marker rule along with marker color rule."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/map/use-case/design-map-using-marker-color-range-rule.md",
+            "dest": "designer-guide/report-items/map/use-case/",
+            "frontmatter": {
+                "title": "Designing map by using marker color range rule",
+                "description": "This section describes the steps involved in designing a map using marker color range rule with equal distribution type."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/index.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Report Item | Standalone Report Designer",
+                "description": "This section describes about chart report item and its properties to design a report using chart in Standalone Report Designer."
+            }
+        },
+	{
+            "src": "designer-guide/report-designer/report-items/chart/bar-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Bar Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Bar Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/column-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Column Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Column Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+	{
+            "src": "designer-guide/report-designer/report-items/chart/stacked-bar-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stacked Bar Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stacked Bar Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+	{
+            "src": "designer-guide/report-designer/report-items/chart/stacked-column-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stacked Column Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stacked Column Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+	{
+            "src": "designer-guide/report-designer/report-items/chart/stacked-bar-100-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stacked Bar 100% Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stacked Bar 100% Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+	{
+            "src": "designer-guide/report-designer/report-items/chart/stacked-column-100-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stacked Column 100% Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stacked Column 100% Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/pie-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Pie Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Pie Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/funnel-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Funnel Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Funnel Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/exploded-pie-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Exploded Pie Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Exploded Pie Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/line-with-markers.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Line with Markers Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Line with Markers Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/smooth-area-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Smooth Area Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Smooth Area Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/smooth-line-with-markers.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Smooth Line with Markers Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Smooth Line with Markers Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/pyramid-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Pyramid Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Pyramid Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/polar-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Polar Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Polar Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/stepped-line-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stepped Line Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stepped Line Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/doughnut-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Doughnut Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Doughnut Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/stacked-area-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stacked Area Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stacked Area Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+		{
+            "src": "designer-guide/report-designer/report-items/chart/stacked-area-100-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Stacked Area 100% Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Stacked Area 100% Chart control into report and formatting chart appearance with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/bubble-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Bubble Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Bubble Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/scatter-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Scatter Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Scatter Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+	{
+            "src": "designer-guide/report-designer/report-items/chart/smooth-line-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Smooth Line Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Smooth Line Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/line-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Line Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Line Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/area-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Area Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Column CAreahart control into report and formatting with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/range-area-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Range Area Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Range Area Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/range-bar-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Range Bar Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Range Bar Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/range-column-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Range Column Chart | Bold Reports Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Range Column Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/smooth-range-area-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Smooth Range Area Chart | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Smooth Range Area Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/radar-chart.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Radar Chart | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Radar Chart control into report and formatting with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/series.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Series | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to customize the series properties in Chart Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/switch-chart-type.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Switch Chart Type | Standalone Report Designer",
+                "description": "This section describes how to change chart type at any point in report design using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/legend.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Legend | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to customize the legend in Chart Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/marker.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Marker | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to customize the marker in Chart Report Item with the Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/data-label.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Data Label | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to customize the data label in Chart Report Item with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/axis.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Axis | Bold Reports | Standalone Report Designer",
+                "description": "This section describes how to customize the category and value axis in Chart Report Item with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/types.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Supported Chart Types | Standalone Report Designer",
+                "description": "This section provides the list of supported chart type details and its description with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/nested-data-region.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Nested data regions | Standalone Report Designer",
+                "description": "This section describes about nested data regions and the steps design a report with cart as nested data regions in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/add-filters-to-chart-data-region.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Add filters to chart data region | Standalone Designer",
+                "description": "This section describes how to add filters on chart category and series group in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/sort-data-in-chart-data-region.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Sort data in a chart data region | Standalone Designer",
+                "description": "This section describes how to set sort expressions on chart category and series group in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/no-data-message.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "No Data Message | Bold Reports | Standalone Designer",
+                "description": "Learn how to set a no data message to show in a rendered report in place of a data region that has no data using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/indicator.md",
+            "dest": "designer-guide/report-items/",
+            "frontmatter": {
+                "title": "Design RDL report using Indicator | Standalone Designer",
+                "description": "Design RDL/RDLC report in Standalone Report Designer using indicator report item to visualize the state of data in the form of icons."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/gauge/index.md",
+            "dest": "designer-guide/report-items/gauge/",
+            "frontmatter": {
+                "title": "Gauge Report Item | Standalone Report Designer",
+                "description": "This section describes about gauge report item and its types to design a report using gauge in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/gauge/linear-gauge.md",
+            "dest": "designer-guide/report-items/gauge/",
+            "frontmatter": {
+                "title": "Linear Gauge Report Item | Standalone Report Designer",
+                "description": "This section describes about gauge report item and its properties to design a report using gauge in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/gauge/radial-gauge.md",
+            "dest": "designer-guide/report-items/gauge/",
+            "frontmatter": {
+                "title": "Radial Gauge Report Item | Standalone Report Designer",
+                "description": "This section describes about radial gauge report item and its properties to design a report using radial gauge in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/data-bar/index.md",
+            "dest": "designer-guide/report-items/data-bar/",
+            "frontmatter": {
+                "title": "Data bar | Bold Reports | Standalone Report Designer",
+                "description": "Adding HTML5 JavaScript Data bar chart control into report and formatting with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/data-bar/design-ssrs-data-bar-using-table.md",
+            "dest": "designer-guide/report-items/data-bar/",
+            "frontmatter": {
+                "title": "Design ssrs report data bar report using table",
+                "description": "Design ssrs data bar report using table, to display trends and changes in data over time with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/sparkline/index.md",
+            "dest": "designer-guide/report-items/sparkline/",
+            "frontmatter": {
+                "title": "Sparkline Report Item | Standalone Report Designer",
+                "description": "This section describes about sparkline report item and its properties to design a report using sparkline in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/sparkline/design-ssrs-sparkline-using-table.md",
+            "dest": "designer-guide/report-items/sparkline/",
+            "frontmatter": {
+                "title": "Design ssrs report using table | Standalone Report Designer",
+                "description": "Design ssrs sparkline report using table, to display trends and changes in data over time with Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/barcode/index.md",
+            "dest": "designer-guide/report-items/barcode/",
+            "frontmatter": {
+                "title": "Barcode Report Item | Standalone Report Designer",
+                "description": "This section describes about barcode report item and its properties to design a report using barcode in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/barcode/design-ssrs-rdl-report-using-barcode.md",
+            "dest": "designer-guide/report-items/barcode/",
+            "frontmatter": {
+                "title": "Design rdl report using barcode | Standalone Report Designer",
+                "description": "Design ssrs rdl report in Standalone Report Designer using barcode, to make tasks like tracking shipping orders and employee identification numbers easier."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/barcode/supported-barcode-types.md",
+            "dest": "designer-guide/report-items/barcode/",
+            "frontmatter": {
+                "title": "Supported Barcode Types | Standalone Report Designer",
+                "description": "This section provides the list of supported barcode report item in Standalone Report Designer and valid value formats for each types."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/signature/index.md",
+            "dest": "designer-guide/report-items/signature/",
+            "frontmatter": {
+                "title": "Signature Report Item | Standalone Report Designer",
+                "description": "Comprehensive guide to using the Signature report item in Bold Reports Designer. Learn properties, customization options, and how to add electronic or PDF signatures to SSRS reports in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/signature/design-ssrs-rdl-report-using-electronic-signature.md",
+            "dest": "designer-guide/report-items/signature/",
+            "frontmatter": {
+                "title": "SSRS Report using Electronic Signature | Standalone Designer",
+                "description": "Learn how to add electronic signatures to SSRS RDL reports using Bold Reports Designer. Step-by-step guide to create invoice reports with signature fields for visual approval in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/signature/design-report-with-pdf-signature.md",
+            "dest": "designer-guide/report-items/signature/",
+            "frontmatter": {
+                "title": "Secure SSRS Reports with PDF Signature | Standalone Designer",
+                "description": "Step-by-step guide to design SSRS RDL reports with PDF digital signatures for secure authentication. Learn how to configure Digital ID files, signer details, and export signed PDFs in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/shape/index.md",
+            "dest": "designer-guide/report-items/shape/",
+            "frontmatter": {
+                "title": "Shape Report Item | Standalone Report Designer",
+                "description": "This section describes about shape report item and its properties to design a report using shape in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/shape/design-ssrs-rdl-report-using-shapes.md",
+            "dest": "designer-guide/report-items/shape/",
+            "frontmatter": {
+                "title": "Design RDL Report using Shapes | Standalone Report Designer",
+                "description": "Design an SSRS RDL report using Shape report items to create a visually engaging flowchart representing a manufacturing workflow in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/shape/shape-types.md",
+            "dest": "designer-guide/report-items/shape/",
+            "frontmatter": {
+                "title": "Supported Shape Types | Standalone Report Designer",
+                "description": "This section shows the shape types available in Standalone Report Designer, with descriptions and tips on how to use them in your report layouts."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/pdf/index.md",
+            "dest": "designer-guide/report-items/pdf/",
+            "frontmatter": {
+                "title": "Embed PDF Documents in SSRS RDL Reports | Report Designer",
+                "description": "Overview of PDF report item in SSRS RDL reports. Learn properties, sizing options, and advanced customization for embedding PDFs in reports in Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/pdf/design-report-with-pdf-content.md",
+            "dest": "designer-guide/report-items/pdf/",
+            "frontmatter": {
+                "title": "Design SSRS RDL Reports with PDF Content | Report Designer",
+                "description": "Learn how to embed PDF documents in SSRS RDL reports using the PDF report item. Includes steps for adding PDFs via URL or Base64, previewing content, and limitations."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/pdf/troubleshooting-and-faq.md",
+            "dest": "designer-guide/report-items/pdf/",
+            "frontmatter": {
+                "title": "PDF Report Item Troubleshootings & FAQs | Report Designer",
+                "description": "Find solutions for common issues with PDF report items in SSRS RDL reports. Covers Linux compatibility, missing libraries, and configuration steps."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/index.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "How to Queries | Bold Reports | Standalone Report Designer",
+                "description": "This page explains the most frequently asked how to queries for the Standalone Report Designer and expected FAQ's."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/upgrade-or-downgrade-rdl-schema-version.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Upgrade or downgrade reports | Standalone Report Designer",
+                "description": "This section describes how to upgrade or downgrade RDL/RDLC reports to different RDL schema version using Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/configure-map-shapes.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Configure Map Shapes | Standalone Report Designer",
+                "description": "This section describes how to configure custom map shapes for Map Report Item with Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/get-distinct-values-in-ssrs-parameter-drop-down.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Get distinct values in parameter dropdown | Report Designer",
+                "description": "This section describes how to get distinct values for SSRS parameter when dataset query returns duplicates in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/resolve-misused-header-name-error-rest-api-data-source.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Resolve misused header name error | Report Designer",
+                "description": "This section describes how to resolve the misused header name error when performing get and post actions in Rest API data source Bold Reports Standalone Report Designer."
+            }
+        },{
+            "src": "designer-guide/report-designer/how-to/pass-form-data-in-rest-api-data-source.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Pass form data in Rest API datasource | Report Designer",
+                "description": "This section describes how to POST form data using the Rest API data source in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/set-all-values-in-multi-value-parameters-as-default.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Select all available values in parameter as default",
+                "description": "This section briefly describes about how to select all the values in the parameter list as default in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/hide-table-column-or-row-when-field-value-empty.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Hide the row or column when field value is empty",
+                "description": "This section explains about how to hide the table row or column when the field value is empty in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/create-master-detail-report-using-table.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "How to create a master-detail report using the table",
+                "description": "This documentation explains the step-by-step procedure to create master-detail report using the table in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/create-master-detail-report-using-list.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "How to create master-detail report using a list",
+                "description": "This documentation explains the step-by-step procedure to create the master-detail report using list in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/create-master-detail-report-using-subreport.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "How to create a master-detail report using subreport",
+                "description": "This documentation explains how to create master detail report using the sub-report in Bold Reports Standalone Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/csv-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to CSV Data Source | Bold Reports Designer",
+                "description": "Learn how to connect to CSV data source and feed data to your RDL reports using Bold Reports Designer. The data source can be loaded from local disk and external URL file."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/data-connectors/excel-data-source.md",
+            "dest": "designer-guide/manage-data/data-connectors/",
+            "frontmatter": {
+                "title": "Connect to Excel Data Source | Bold Reports Designer",
+                "description": "Learn how to connect to Excel data source and feed data to your RDL reports using Bold Reports Designer. The data source can be loaded from local disk and external URL file."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/dataset/reorder-a-dataset.md",
+            "dest": "designer-guide/manage-data/dataset/",
+            "frontmatter": {
+                "title": "Reorder a dataset in Bold Report Designer | SSRS reporting",
+                "description": "This section describes you on how reorder an existing dataset from the list of datasets in Bold Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/manage-data/datasource/reorder-data-source.md",
+            "dest": "designer-guide/manage-data/datasource/",
+            "frontmatter": {
+                "title": "Reorder a data source in Bold Report Designer | SSRS",
+                "description": "This section describes you on how reorder an existing data source from the list of datasources in Bold Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-parameters/reorder-parameters.md",
+            "dest": "designer-guide/report-parameters/",
+            "frontmatter": {
+                "title": "Reorder report parameters in Bold Report Designer | SSRS",
+                "description": "This section describes you on how reorder an existing parameter from the list of parameters in Bold Report Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/report-items/chart/color-palette.md",
+            "dest": "designer-guide/report-items/chart/",
+            "frontmatter": {
+                "title": "Chart Color Palette | Standalone Report Designer",
+                "description": "This section describes how to customize the color aplette in Chart Report Item with the Bold Report Designer"
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/create-the-cover-page-report-in-bold-reports.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Create a cover page report | Standalone Report Designer",
+                "description": "This document provides the details on how to create the cover page report in the Bold Reports designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/faq/index.md",
+            "dest": "designer-guide/faq/",
+            "frontmatter": {
+                "title": "Frequently asked questions | Standalone Report Designer",
+                "description": "Frequently asked questions in the Standalone Report Designer control based on customer incidents and forums."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/faq/display-no-data-message-for-a-data-region.md",
+            "dest": "designer-guide/faq/",
+            "frontmatter": {
+                "title": "Display no data message for a data region | Report Designer",
+                "description": "This section describes how to display no data message for a data region in the Standalone Bold Reports Designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/repeat-row-and-column-headers-on-multiple-pages.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Repeat row and column | Standalone Report Designer",
+                "description": "This section explains how to repeat the row and column headers on multiple pages in the Bold Reports designer."
+            }
+        },
+        {
+            "src": "designer-guide/report-designer/how-to/remove-additional-zeros-when-using-percentage-format.md",
+            "dest": "designer-guide/how-to/",
+            "frontmatter": {
+                "title": "Remove additional zeroes | Standalone Report Designer",
+                "description": "This section briefly describes how to remove the additional zeros when using percentage format in the Bold Reports designer."
+            }
+        }
+    ]
+}

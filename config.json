@@ -1,0 +1,24 @@
+{
+    "branch": "development",
+    "siteVersion": "2.3.26",
+    "umsVersion": "2.3.26",
+    "reportserviceurl": "https://demos.boldreports.com/services/",
+    "githubserviceloc": "https://github.com/boldreports/demo-services/",
+    "additionalInfo": {
+        "header": "Standalone Report Designer",
+        "homePage": {
+            "name": "Overview",
+            "fileName": "overview"
+        },
+        "url": {
+            "freeTrial": "https://app.boldid.net/register/reports/enterprise?evaluation=v2",
+            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo",
+            "suggestAFeature": "https://www.boldreports.com/feedback"
+        },
+        "pdf": {
+            "tocLevel": 1,
+            "date": "September 2,2020"
+        }
+    },
+    "pdfPath": "https://help.boldreports.com/standalone-report-designer/boldreports-standalone-report-designer.zip"
+}
