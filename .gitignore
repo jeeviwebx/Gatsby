@@ -11,17 +11,13 @@ yarn.lock
 package-lock.json
 
 # src
-src/
+!src/pages
 
 # common
 stack.json
 .htmllintrc
 .jshintrc
 .markdownlint.json
-gatsby-config.js
-gatsby-node.js
-gatsby-browser.js
-.htaccess
 
 # misc
 cireports
@@ -36,8 +32,6 @@ left-toc.json
 sitemap.xml
 
 # static
-static/*
-!static/assets/
 
 # startFiles
 docs/designer-guide/index.md
