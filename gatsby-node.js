@@ -1,113 +1,180 @@
 const _ = require('lodash');
 const Promise = require('bluebird');
 const { execSync } = require('child_process');
-const { updateContent } = require('./node_modules/@boldreports/docs-helper/src/content.js');
-const config = require('./config.json');
 const path = require('path');
+const fs = require('fs');
 
-exports.onCreateWebpackConfig = ({ actions, stage }) => {
-	if (stage === 'build-javascript') {
-		actions.setWebpackConfig({
-			devtool: false,
-		});
+const {
+	updateContent
+} = require('./node_modules/@boldreports/docs-helper/src/content.js');
+
+const config = require('./config.json');
+const tocJson = require('./left-toc.json');
+
+const { marked } = require('marked');
+const matter = require('gray-matter');
+const { markedHighlight } = require('marked-highlight');
+
+const Prism = require('prismjs');
+
+// Prism languages
+require('prismjs/components/prism-javascript');
+require('prismjs/components/prism-json');
+require('prismjs/components/prism-markup');
+require('prismjs/components/prism-css');
+require('prismjs/components/prism-bash');
+require('prismjs/components/prism-jsx');
+require('prismjs/components/prism-typescript');
+require('prismjs/components/prism-tsx');
+
+// Prism highlight setup
+marked.use(
+	markedHighlight({
+		langPrefix: 'language-',
+
+		highlight(code, lang) {
+			const language = Prism.languages[lang]
+				? lang
+				: 'javascript';
+
+			return Prism.highlight(
+				code,
+				Prism.languages[language],
+				language
+			);
+		}
+	})
+);
+
+// Get git last updated date
+const getGitLastUpdated = (filePath) => {
+	try {
+		const relativeGitPath = path.relative(
+			process.cwd(),
+			filePath
+		);
+
+		const gitCommand = `git log -1 --format=%cI -- "${relativeGitPath}"`;
+
+		const result = execSync(gitCommand, {
+			encoding: 'utf8'
+		}).trim();
+
+		return result || new Date().toISOString();
+	} catch (e) {
+		console.log(`Git date not found for: ${filePath}`);
+
+		return new Date().toISOString();
 	}
 };
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-	const { createNodeField, createRedirect } = actions;
-	let slug;
-
-	if (node.internal.type === `MarkdownRemark`) {
-		const fileNode = getNode(node.parent);
-		const parsedFilePath = path.parse(fileNode.relativePath);
-		
-		// Home page - slug Maping
-		if (parsedFilePath.name == config.additionalInfo.homePage.fileName && parsedFilePath.dir == '') {
-			slug = '/';
-		} else if (parsedFilePath.name !== 'index' && parsedFilePath.dir !== '') {
-			slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
-		} else if (parsedFilePath.dir === '') {
-			slug = `/${parsedFilePath.name}/`;
-		} else {
-			slug = `/${parsedFilePath.dir}/`;
-		}
-
-		if (node.internal.content) {
-			let tocPath = slug; 
-			
-			// Home page - File Maping
-			if (slug === '/' && parsedFilePath.name == config.additionalInfo.homePage.fileName && parsedFilePath.dir == '') {
-				tocPath = `/${parsedFilePath.name}/`;
-			}
-
-			const updatedContent = updateContent(node.internal.content, tocPath, node.frontmatter, fileNode.relativePath);
-			if (updatedContent) {
-				node.internal.content = updatedContent;
-			}
-        }
-
-		let lastUpdated = null;
-		try {
-			lastUpdated = execSync(`git log -1 --format=%cI -- docs/"${fileNode.relativePath}"`).toString().trim();
-		} catch (e) {
-			console.log('Git error:', e);
-		}
-
-		createNodeField({ node, name: 'slug', value: slug });
-		createNodeField({ node, name: 'lastUpdated', value: lastUpdated });
-
-		createRedirect({ fromPath: '/uwp', toPath: 'https://help.syncfusion.com/uwp/sfreportviewer/', isPermanent: true });
-		createRedirect({ fromPath: '/wpf', toPath: 'https://help.syncfusion.com/wpf/reportviewer/', isPermanent: true });
-	}
-};
-
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ actions }) => {
 	const { createPage } = actions;
 
-	return new Promise((resolve, reject) => {
-		const layout = path.resolve('./src/templates/layout.js');
-		resolve(
-			graphql(`
-				{
-					allMarkdownRemark {
-						edges {
-							node {
-								html
-								id
-								frontmatter {
-									description
-									title
-									keywords
-									canonical
-								}
-								fields {
-									slug
-									lastUpdated
-								}
-							}
-						}
+	const docsPath = path.resolve('./docs');
+
+	const layout = path.resolve(
+		'./src/templates/layout.js'
+	);
+
+	const pagesData = tocJson.pagesData || [];
+
+	let completedCount = 0;
+
+	await Promise.all(
+		pagesData.map(async (page) => {
+			try {
+				// Skip html files
+				if (page.fileType === 'html') return;
+
+				const slug = page.path || '/';
+
+				const cleanPath = slug.replace(
+					/^\/|\/$/g,
+					''
+				);
+
+				const rootFile = path.join(
+					docsPath,
+					'overview.md'
+				);
+
+				const directFile = path.join(
+					docsPath,
+					`${cleanPath}.md`
+				);
+
+				const indexFile = path.join(
+					docsPath,
+					cleanPath,
+					'index.md'
+				);
+
+				// Resolve file path
+				const filePath =
+					(slug === '/' &&
+						fs.existsSync(rootFile) &&
+						rootFile) ||
+					(fs.existsSync(directFile) &&
+						directFile) ||
+					(fs.existsSync(indexFile) &&
+						indexFile) ||
+					'';
+
+				if (!filePath) {
+					console.log(
+						`MD file not found for path: ${slug}`
+					);
+
+					return;
+				}
+
+				// Read markdown
+				const rawContent =
+					await fs.promises.readFile(
+						filePath,
+						'utf8'
+					);
+
+				// Parse frontmatter
+				const {
+					data: seo,
+					content
+				} = matter(rawContent);
+
+				// Git last updated
+				const lastUpdated =
+					getGitLastUpdated(filePath);
+
+				// Markdown -> HTML
+				const html = marked(content);
+
+				// Create page
+				createPage({
+					path: slug,
+
+					component: layout,
+
+					context: {
+						filePath,
+						html,
+						page,
+						seo,
+						lastUpdated
 					}
-				}
-			`).then((result) => {
-				if (result.errors) {
-					console.log(result.errors);
-					reject(result.errors);
-				}
-				// Create blog posts pages.
-				const posts = result.data.allMarkdownRemark.edges;
-				_.each(posts, (post, index) => {
-					createPage({
-						path: post.node.fields.slug,
-						component: layout,
-						context: {
-							html: post.node.html,
-							slug: post.node.fields.slug,
-							lastUpdated: post.node.fields.lastUpdated,
-							frontmatter: post.node.frontmatter
-						},
-					});
 				});
-			})
-		);
-	});
+
+				completedCount++;
+
+				console.log(
+					`[${completedCount} / ${pagesData.length}] Page creation completed - ${slug}`
+				);
+			} catch (error) {
+				console.error(
+					`Error creating page: ${page.path}`,
+					error
+				);
+			}
+		})
+	);
 };
